@@ -230,12 +230,18 @@ namespace Infectia
                             Console.SetCursorPosition((Console.WindowWidth / 2) - ("[press enter to quit to the main menu]".Length / 2), (Console.WindowHeight / 2) - 1);
                             Console.WriteLine("[press enter to quit to the main menu]");
                             setTextColor(DARK_GRAY);
-                            ConsoleKey KEY2 = Console.ReadKey(true).Key;
-                            if (KEY2 == ConsoleKey.Enter)
+                            while(true)
                             {
-                                Console.Clear();
-                                mainMenu();
+                                ConsoleKey KEY2 = Console.ReadKey(true).Key;
+                                if (KEY2 == ConsoleKey.Enter)
+                                {
+                                    Console.Clear();
+                                    mainMenu();
+                                } else {
+                                    continue;
+                                }
                             }
+                            
                         }
 
                     }
