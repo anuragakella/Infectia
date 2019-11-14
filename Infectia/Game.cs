@@ -416,7 +416,7 @@ namespace Infectia
             Console.SetCursorPosition(30, 7);
             Console.WriteLine();
             Console.SetCursorPosition(30, 8);
-            Console.WriteLine("Infectia v1.1.0");
+            Console.WriteLine("Infectia v1.1.1");
             setTextColor(WHITE);
             bool print = true;
             Console.CursorVisible = false;
