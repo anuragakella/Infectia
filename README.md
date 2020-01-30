@@ -9,3 +9,5 @@ However, the act of rescuing a healer is rewarded with +10% health!
 Before going on, do keep in mind that healers spawn randomly and sometimes it is impossible to save them.
 If that happens, you automatically lose and you can Quit and restart.
 Once you get to all of the healers, you become invincible and the infection dies out!
+
+Read /wiki for more info [tap on the wiki tab]
